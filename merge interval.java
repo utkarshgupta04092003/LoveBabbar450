@@ -1,3 +1,29 @@
+/********************************************************
+Problem Statement - 
+[Code studio code, click here](https://www.codingninjas.com/codestudio/problems/merge-intervals_699917?topList=love-babbar-dsa-sheet-problems&leftPanelTab=1)
+
+Approach - 
+
+first we sort intervals based on first number and then
+create two variable start and finish that store 0th 
+interval start and finish value.
+Now compare these both value with other  intevals 
+start and finish value.
+        
+if next interval can be merge in this interval we just
+update these start and finish value by merging both.
+if not, put this interval in result and update these 
+value by new interval start and finish value.
+Ansd at last put start and finish values in result as 
+form of interval.
+
+time - O(logn) + O(n)
+
+********************************************************/
+
+
+
+
 import java.util.* ;
 import java.io.*; 
 /*******************************************************
@@ -23,6 +49,7 @@ public class Solution {
         // write your code here.
         List<Interval> res = new ArrayList<Interval>();
         
+        // sort intervals based on first number
         Arrays.sort(intervals, new Comparator<Interval>(){
             public int compare(Interval i1,Interval i2)
             {
