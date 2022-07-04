@@ -1,6 +1,6 @@
 /********************************************************
 Problem Statement - 
-[Code studio code, click here](https://www.codingninjas.com/codestudio/problems/merge-intervals_699917?topList=love-babbar-dsa-sheet-problems&leftPanelTab=1/)
+[Code studio code, click here](https://www.codingninjas.com/codestudio/problems/merge-intervals_699917?topList=love-babbar-dsa-sheet-problems&leftPanelTab=1)
 
 Approach - 
 
