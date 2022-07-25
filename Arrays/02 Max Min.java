@@ -58,8 +58,8 @@ class Solution
             if(A[i] > max)
                 max = A[i];
         }
-        
-        return min+max;
+        int sum = min+max
+        return sum;
     }
 }
 
