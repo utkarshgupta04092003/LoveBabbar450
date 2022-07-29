@@ -23,10 +23,6 @@ Expected Auxiliary Space: O(1).
 Constraints:
 1 <= |s| <= 10000
 
-
-
-we can also solve how to reverse an array in O(n) time
-
 ************************************************************/
 
 
